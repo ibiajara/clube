@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clube Ibiajara</title>
+
+    <script>
+        function DezSegundos(){
+            document.getElementById("textLoading").innerHTML = `Aguarde, carregando...<br>Verifique sua conexão...`;
+        }
+        setTimeout(DezSegundos, 1000*15);
+    </script>
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+
+    <!-- aos css cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- google fonts cdn link  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+</head>
+<body>
+
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <lord-icon
+            src="https://cdn.lordicon.com/jluicbpf.json"
+            trigger="loop"
+            colors="primary:#121331,secondary:#3a3347,tertiary:#ebe6ef,quaternary:#2ca58d,quinary:#4bb3fd,senary:#ffc738,septenary:#b26836"
+            style="width:10rem;height:10rem">
+        </lord-icon>
+        <p id="textLoading">Aguarde, carregando...</p>
+    </div>
+  
+</div>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <a id="titleHead" href="#inicio" class="logo">IBIAJARA</a>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <ul id="ulNavId">
+            <li><a class="active" href="#inicio">Início</a></li>
+            <li><a href="#doacoes">Doações</a></li>
+            <li><a href="#site">Site</a></li>
+        </ul>
+    </nav>
+
+</header>
+<!-- header section ends -->
+
+<div class="modal-product" id="modalProduct">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <div class="containerDetails" id="divDetails">
+        <div class="containerImg">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=789&q=80" alt="">
+        </div>
+        <div class="detailsProduct">
+            <h1>Bolo Surpresa</h1>
+            <h3>Descrição descrição, Descrição descrição, Descrição descrição, Descrição descrição, Descrição descrição, Descrição descrição, Descrição descrição, </h3>
+            <span id="priceDetail">R$ 54,00</span>
+            <div class="variationsPrices">
+                <input type="radio" placeholder="preço 1">
+                <input type="radio" placeholder="preço 2">
+            </div>
+            <button>Adicionar ao carrinho</button>
+        </div>
+    </div>
+
+</div>
+
+<div class="bagDiv">
+    <div class="insideBagDiv">
+        <i class="fas fa-shopping-bag"></i>
+        <div id="badgeId" class="badgeCountItens">
+            0
+        </div>
+    </div>
+</div>
+
+<div class="producstOnCart hide">
+    <div class="overlay"></div>
+    <div class="top">
+        <button id="closeButton">
+            <i class="fas fa-times-circle"></i>
+        </button>
+        <h3>Sacola</h3>
+        <div id="cartSumTotal"></div>
+    </div>
+    <ul id="buyItems">
+        <h4 class="empty">Sua sacola está vazia!</h4>
+        <!-- <li class="buyItem">
+            <img src="">
+            <div>
+                <h5>Products Name</h5>
+                <h6>$199</h6>
+                <div>
+                    <button>-</button>
+                    <span class="countOfProduct">1</span>
+                    <button>+</button>
+                </div>
+            </div>
+        </li> -->
+    </ul>
+    <p class="warningDelivery">Apenas retirada no estabelecimento. Delivery em breve... &#128757;</p>
+    <a
+        id="buttonWhatsapp"
+        href="https://api.whatsapp.com/send?phone=+5577991998770&text=Oi! Gostaria de saber mais sobre os produtos da Santa Maria do Ouro."
+        target="_blank">
+        <button class="btnConfirmShop checkout hidden"><i class="fab fa-whatsapp"></i>Enviar Pedido</button>
+    </a>
+    
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="inicio">
+
+    <div class="content">
+        <h3>Clube social de Ibiajara</h3>
+        <p>Toda Comissão e Contribuintes, liderados pelos filho Ibiajarense e idealizador deste projeto <i>(Diógenes Cândido de Lima)</i>, estamos organizando um movimento para angariar recursos em prol da reforma do nosso clube, que se encontra, há anos, em situação deplorável. O clube é o único espaço público de lazer para toda comunidade, razão pela qual viemos pedir a ajuda de vocês para salvar esse nosso patrimônio histórico.
+            Caso queiram e/ou possam nos ajudar nessa empreitada, depositem sua contribuição por meio do pix: 
+            <b>reformadoclube@gmail.com</b>
+            em nome de <i>Jean Dalbert Santos</i>, tesoureiro da comissão.
+            <br>Muito obrigado pela sua contribuição.
+            <br>✍️Comissão em prol da reforma do clube.</p>
+        <div class="chromeWarning">Para melhor experiência do usuário, utilize o
+            <div class="dropdownChrome">
+                <button type="button" class="btnChrome">Google Chrome<img class="chromeImg" src="images/chromeLogoComp.png" alt="chromeLogo"/></button><div class="dropdown-contentChrome">
+                    <div>
+                        <a
+                            href="https://play.google.com/store/apps/details?id=com.android.chrome"
+                            target="_blank">
+                            <button><i class="fab fa-android"></i>Android</button>
+                        </a>
+                    </div>
+                    <div>
+                        <a
+                            href="https://apps.apple.com/br/app/google-chrome/id535886823"
+                            target="_blank">
+                            <button><i class="fab fa-apple"></i>iOS</button>
+                        </a>
+                    </div>
+                    <div>
+                        <a
+                            href="https://www.google.com/intl/pt-BR/chrome/"
+                            target="_blank">
+                            <button><i class="fas fa-desktop"></i>PC</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#doacoes" id="shortcutMenu"><button class="btn">Lista doações</button></a>
+    </div>
+
+    <div class="image">
+        <img src="clube_image.png" alt="">
+    </div>
+
+</section>
+
+<!--*************************-->
+
+<section class="menu" id="doacoes">
+    <h3 class="heading"><span>Lista de doações</span></h3>
+    <br>
+
+    <div id="3tab1" class=" tabSorveteria ">
+    
+        <div id="productsDiv" class="menu__container bd-grid">
+            <h1 id="dataTotal"></h1>
+            <ul id="listTransactions"></ul>
+        </div>
+    
+    </div>
+    <br>
+</section>
+
+<!--*************************-->
+
+<!-- footer section starts  -->
+
+<section class="footer" id="site">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Juntos somos mais Fortes!</h3>
+            <p> <a href="https://www.instagram.com/sorveteriachaplin/" target="_blank"><i class="fab fa-instagram"></i> @sorveteriachaplin</a></p>
+            <p> <a href="https://goo.gl/maps/22bzChkjJNcdHrW57" target="_blank"><i class="fas fa-map-marker-alt"></i> Ibiajara - BA</a></p>
+            
+            <p> <a href="https://lordicon.com/" style="font-size: small;">Animated icons by Lordicon.com</a></p>
+            <p> <a href="mailto:manoelprado.aecjr@gmail.com" style="font-size: small;">Developed by Manoel Prado</a></p>
+
+            <p style="font-size: small;width: 100%;"><span>Gratidão ao filho de Ibiajara Diógenes Cândido de Lima, que tomou a frente e idealizou esse projeto; a toda Comissão e Contribuintes, todos em prol da reforma do clube!</span></p>
+        </div>
+
+    </div>
+
+    <h1 class="credit"><a href="https://easypcformat.com.br/" target="_blank">#PorUmaIbiajaraMaisBonita e #Unida</a></h1>
+
+</section>
+
+<!-- footer section ends -->
+
+
+<!-- aos js cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+ <!-- custom js file link  -->
+ <script type="module" src="script.js"></script>
+
+<!-- initializing aos  -->
+
+<script>
+
+    AOS.init({
+        delay:400,
+        duration:1000
+    })
+
+</script>
+
+</body>
+</html>

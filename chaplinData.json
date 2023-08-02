@@ -1,0 +1,993 @@
+{
+  "lanchonete" : {
+    "name": "Lanchonete",
+    "subsections": [
+      {
+        "name": "Lanches",
+        "products": {
+          "0": {
+            "id": "1.1.1",
+            "number": 1,
+            "name":"X-Tudo",
+            "available": true,
+            "description": "Hambúrguer, bacon, salsicha, ovo, queijo, presunto, catupiry, alface, tomate, milho e molho.",
+            "price":"R$ 13,00",
+            "priceNumb": 13.00,
+            "img": "https://i.ibb.co/PMD1qP1/X-TUDO.jpg",
+            "display": "display:flex"
+          },
+          "1": {
+            "id": "1.1.2",
+            "number": 2,
+            "name":"X-Calabresa",
+            "available": true,
+            "description": "Hambúrguer, calabresa, queijo, cebola, alface, tomate e molho.",
+            "price":"R$ 10,00",
+            "priceNumb": 10.00,
+            "img": "https://i.ibb.co/XXLr1fc/X-CALABRESA.jpg",
+            "display": "display:none"
+          },
+          "2": {
+            "id": "1.1.3",
+            "number": 3,
+            "name":"X-Egg",
+            "available": true,
+            "description": "Hambúrguer, ovo, queijo, alface, tomate e molho.",
+            "price":"R$ 9,00",
+            "priceNumb": 9.00,
+            "img": "https://i.ibb.co/mhhhWPb/X-EGG.png",
+            "display": "display:none"
+          },
+          "3": {
+            "id": "1.1.4",
+            "number": 4,
+            "name":"Americano",
+            "available": true,
+            "description": "Queijo, presunto, ovo, alface e tomate.",
+            "price":"R$ 7,50",
+            "priceNumb": 7.50,
+            "img": "https://i.ibb.co/bR0rhLb/AMERICANO.jpg",
+            "display": "display:none"
+          },
+          "4": {
+            "id": "1.1.5",
+            "number": 5,
+            "name":"X-Salada",
+            "available": true,
+            "description": "Hambúrguer, alface, tomate e milho.",
+            "price":"R$ 7,00",
+            "priceNumb": 7.00,
+            "img": "https://i.ibb.co/4j0Dzwc/X-SALADA.jpg",
+            "display": "display:none"
+          },
+          "5": {
+            "id": "1.1.6",
+            "number": 6,
+            "name":"X-Frango",
+            "available": true,
+            "description": "Peito de frango, queijo, alface, tomate e molho.",
+            "price":"R$ 7,00",
+            "priceNumb": 7.00,
+            "img": "https://i.ibb.co/RCF0P5T/X-FRANGO.png",
+            "display": "display:none"
+          },
+          "6": {
+            "id": "1.1.7",
+            "number": 7,
+            "name":"X-Burguer",
+            "available": true,
+            "description": "Hambúrguer, bacon, salsicha, ovo, queijo, presunto, catupiry, alface, tomate, milho e molho.",
+            "price":"R$ 6,00",
+            "priceNumb": 6.00,
+            "img": "https://i.ibb.co/nDVzL0j/X-BURGUER.jpg",
+            "display": "display:none"
+          },
+          "7": {
+            "id": "1.1.8",
+            "number": 8,
+            "name":"Mistão",
+            "available": true,
+            "description": "Hambúrguer, queijo, presunto e molho.",
+            "price":"R$ 5,00",
+            "priceNumb": 5.00,
+            "img": "https://i.ibb.co/p3Mrfhb/MISTAO.jpg",
+            "display": "display:none"
+          }
+        } 
+      },
+      {
+        "name": "Porções",
+        "products": {
+          "8": {
+            "id": "1.2.1",
+            "number": 1,
+            "name":"Frango e Batata com Cheddar e Bacon",
+            "available": true,
+            "description": "sdk dask dajks k",
+            "price":"R$ 28,00",
+            "priceNumb": 28.00,
+            "img": "https://i.ibb.co/85pb2JB/completao.jpg",
+            "display": "display:flex"
+          },
+          "9": {
+            "id": "1.2.2",
+            "number": 2,
+            "name":"Frango",
+            "available": true,
+            "description": "sdk dask dajks k",
+            "price":"R$ 16,00",
+            "priceNumb": 16.00,
+            "img": "https://i.ibb.co/HggFKLk/frango.jpg",
+            "display": "display:none"
+          },
+          "10": {
+            "id": "1.2.3",
+            "number": 3,
+            "name":"Batata com Cheddar e Bacon",
+            "available": true,
+            "description": "sdk dask dajks k",
+            "price":"R$ 12,00",
+            "priceNumb": 12.00,
+            "img": "https://i.ibb.co/Csb51P2/batata-completa.jpg",
+            "display": "display:none"
+          },
+          "11": {
+            "id": "1.2.4",
+            "number": 4,
+            "name":"Batata com Cheddar",
+            "available": true,
+            "description": "sdk dask dajks k",
+            "price":"R$ 10,00",
+            "priceNumb": 10.00,
+            "img": "https://i.ibb.co/0D3MXRf/batata-e-cheddar.png",
+            "display": "display:none"
+          },
+          "12": {
+            "id": "1.2.5",
+            "number": 5,
+            "name":"Batata com Bacon",
+            "available": true,
+            "description": "sdk dask dajks k",
+            "price":"R$ 10,00",
+            "priceNumb": 10.00,
+            "img": "https://i.ibb.co/wRfCM6V/batata.jpg",
+            "display": "display:none"
+          },
+          "13": {
+            "id": "1.2.6",
+            "number": 6,
+            "name":"Batata Frita",
+            "available": true,
+            "description": "sdk dask dajks k",
+            "price":"R$ 8,00",
+            "priceNumb": 8.00,
+            "img": "https://i.ibb.co/0FQpF24/Batata-Frita-Crocante.jpg",
+            "display": "display:none"
+          },
+          "14": {
+            "id": "1.2.7",
+            "number": 7,
+            "name":"Frango a passarinho",
+            "available": false,
+            "description": "sdk dask dajks k",
+            "price":"R$ 22,00",
+            "priceNumb": 22.00,
+            "img": "https://i.ibb.co/BrN0ccQ/frango-a-passarinho.png",
+            "display": "display:none"
+          }
+        }
+      },
+      {
+        "name": "Assados",
+        "products": {
+          "15": {
+            "id": "1.3.1",
+            "number": "01",
+            "name":"Esfirra de frango",
+            "available": true,
+            "description": "Com frango desfiado delicioso!",
+            "price":"R$3,50",
+            "priceNumb": 3.50,
+            "img": "https://i.ibb.co/6bRSBw5/esf-Frango.jpg",
+            "display": "display:flex"
+          },
+          "16": {
+            "id": "1.3.2",
+            "number": "02",
+            "name":"Esfirra de carne",
+            "available": true,
+            "description": "Recheada com carne de dar água na boca!",
+            "price":"R$3,50",
+            "priceNumb": 3.50,
+            "img": "https://i.ibb.co/c3k26pD/esfirra-de-carne.jpg",
+            "display": "display:none"
+          },
+          "17": {
+            "id": "1.3.3",
+            "number": "03",
+            "name":"Esfirra de queijo e presunto",
+            "available": true,
+            "description": "Irresistível!",
+            "price":"R$3,50",
+            "priceNumb": 3.50,
+            "img": "https://i.ibb.co/X7gdqXd/esf-Queijo-Pres.jpg",
+            "display": "display:none"
+          },
+          "18": {
+            "id": "1.3.4",
+            "number": "04",
+            "name":"Esfirra de frango com catupiry",
+            "available": true,
+            "description": "A queridinha da clientela!&#128525;",
+            "price":"R$4,00",
+            "priceNumb": 4.00,
+            "img": "https://i.ibb.co/BjJmYKG/esf-Fran-Catup.jpg",
+            "display": "display:none"
+          },
+          "19": {
+            "id": "1.3.5",
+            "number": "05",
+            "name":"Esfirra de frango com cheddar",
+            "available": true,
+            "description": "Quem não gosta de cheddar né?&#129316;",
+            "price":"R$4,00",
+            "priceNumb": 4.00,
+            "img": "https://i.ibb.co/V2tQBHM/Esf-Fran-Cheddar.jpg",
+            "display": "display:none"
+          },
+          "20": {
+            "id": "1.3.6",
+            "number": "06",
+            "name":"Esfirra de calabresa com queijo",
+            "available": true,
+            "description": "Quero bis!&#128540;",
+            "price":"R$4,00",
+            "priceNumb": 4.00,
+            "img": "https://i.ibb.co/FVRYfDc/esf-Calab-Queijo.jpg",
+            "display": "display:none"
+          },
+          "21": {
+            "id": "1.3.7",
+            "number": "07",
+            "name":"Esfirra de calabresa com queijo e cheddar",
+            "available": true,
+            "description": "Alguém disse cheddar?&#128556;",
+            "price":"R$5,00",
+            "priceNumb": 5.00,
+            "img": "https://i.ibb.co/vBZSDC7/esf-Calab-Cheddar.jpg",
+            "display": "display:none"
+          },
+          "22": {
+            "id": "1.3.8",
+            "number": "08",
+            "name":"Hamburgão",
+            "available": true,
+            "description": "Hambúrguer, queijo e tomate. Esse acompanhado de um milk-shake... hummmmm&#128523;",
+            "price":"R$4,00",
+            "priceNumb": 4.00,
+            "img": "https://i.ibb.co/ZLN8bPj/hamburgao.jpg",
+            "display": "display:none"
+          },
+          "23": {
+            "id": "1.3.9",
+            "number": "09",
+            "name":"Bauru",
+            "available": true,
+            "description": "Queijo, presunto, milho, tomate e orégano. Perfeito! Muitos preferem chamá-lo de pão pizza.",
+            "price":"R$4,00",
+            "priceNumb": 4.00,
+            "img": "https://i.ibb.co/Wf0QxR9/bauru.jpg",
+            "display": "display:none"
+          },
+          "24": {
+            "id": "1.3.10",
+            "number": "10",
+            "name":"Enroladinho de salsicha assado",
+            "available": true,
+            "description": "Aquele tradicional salgado de salsicha!&#127789;",
+            "price":"R$3,00",
+            "priceNumb": 3.00,
+            "img": "https://i.ibb.co/Bjr972m/enro-Salsicha-Assado.jpg",
+            "display": "display:none"
+          },
+          "25": {
+            "id": "1.3.11",
+            "number": "11",
+            "name":"Enroladinho de salsicha gourmet",
+            "available": true,
+            "description": "Salsicha com queijo, combinação perfeita!&#127789;",
+            "price":"R$3,50",
+            "priceNumb": 3.50,
+            "img": "https://i.ibb.co/qYYk1GW/enrol-Sals-Gourmet.jpg",
+            "display": "display:none"
+          }
+        }
+      },
+      {
+        "name": "Fritos",
+        "products": {
+          "26": {
+            "id": "1.4.1",
+            "number": "01",
+            "name":"Coxinha",
+            "available": true,
+            "description": "A coxinha top 1 do Mundo!&#127942;&#127758;",
+            "price":"R$ 3,00",
+            "priceNumb": 3.00,
+            "img": "https://i.ibb.co/bLJysvg/coxinha.jpg",
+            "display": "display:flex"
+          },
+          "27": {
+            "id": "1.4.2",
+            "number": "02",
+            "name":"Risoles de Carne",
+            "available": true,
+            "description": "Aquele bolinho de carne maravilhoso!&#129316;",
+            "price":"R$ 3,50",
+            "priceNumb": 3.50,
+            "img": "https://i.ibb.co/QD8c83J/carne.png",
+            "display": "display:none"
+          },
+          "28": {
+            "id": "1.4.3",
+            "number": "03",
+            "name":"Risoles de Pizza",
+            "available": true,
+            "description": "Travesseiro ou Risoles, o nome não importa. Mas é unânime que este é suuuper irresistível!&#128523;",
+            "price":"R$ 3,50",
+            "priceNumb": 3.50,
+            "img": "https://i.ibb.co/XsdLZZv/Risoles-de-presunto-e-queijo.jpg",
+            "display": "display:none"
+          },
+          "29": {
+            "id": "1.4.4",
+            "number": "04",
+            "name":"Enroladinho de salsicha frito",
+            "available": true,
+            "description": "Que tal optar pela deliciosa e tradicional salsicha?&#127789;",
+            "price":"R$ 3,50",
+            "priceNumb": 3.50,
+            "img": "https://i.ibb.co/3s26YBp/salsicha.jpg",
+            "display": "display:none"
+          },
+          "30": {
+            "id": "1.4.5",
+            "number": "05",
+            "name":"Enroladinho de queijo e presunto frito",
+            "available": true,
+            "description": "Mais um queridinho da galera!&#128525;",
+            "price":"R$ 3,50",
+            "priceNumb": 3.50,
+            "img": "https://i.ibb.co/mbQybk7/queijo-e-presunt.png",
+            "display": "display:none"
+          },
+          "31": {
+            "id": "1.4.6",
+            "number": "06",
+            "name":"Kibe",
+            "available": true,
+            "description": "Aquele kibe maravilhosoooo!&#128523;",
+            "price":"R$ 3,50",
+            "priceNumb": 3.50,
+            "img": "https://i.ibb.co/NgRynqB/kibe.jpg",
+            "display": "display:none"
+          },
+          "32": {
+            "id": "1.4.7",
+            "number": "07",
+            "name":"Steak de Frango",
+            "available": true,
+            "description": "O tradicional empanado de frango!&#128539;",
+            "price":"R$ 2,50",
+            "priceNumb": 2.50,
+            "img": "https://i.ibb.co/sw4b4B4/steak.png",
+            "display": "display:none"
+          }
+        }
+      }
+    ]
+  },
+  "pizzaria": {
+    "name": "Pizzaria",
+      "subsections": [
+        {
+          "name": "Pizzaria",
+          "products": [
+            {
+              "id": "2.1.1",
+              "number": 1,
+              "name":"Tradicional",
+              "description": "Queijo, presunto, milho e tomate.",
+              "img": "pizzasImages.imgTradicional",
+              "display": "display:flex",
+              "prices": "pizzaPrices1"
+            },
+            {
+              "id": "2.1.2",
+              "number": 2,
+              "name":"Calabresa",
+              "description": "Queijo, calabresa e cebola.",
+              "img": "pizzasImages.imgCalabresa",
+              "display": "display:none",
+              "prices": "pizzaPrices1"
+            },
+            {
+              "id": "2.1.3",
+              "number": 3,
+              "name":"Caipira",
+              "description": "Queijo, frango desfiado, milho, tomate e cebola.",
+              "img": "pizzasImages.imgCaipira",
+              "display": "display:none",
+              "prices": "pizzaPrices2"
+            },
+            {
+              "id": "2.1.4",
+              "number": 4,
+              "name":"Portuguesa",
+              "description": "Queijo, presunto, ovo, tomate, azeitona e cebola.",
+              "img": "pizzasImages.imgPortuguesa",
+              "display": "display:none",
+              "prices": "pizzaPrices2"
+            },
+            {
+              "id": "2.1.5",
+              "number": 5,
+              "name":"Frango Catupiry",
+              "description": "Queijo, frango e catupiry.",
+              "img": "pizzasImages.imgFrangCatup",
+              "display": "display:none",
+              "prices": "pizzaPrices2"
+            },
+            {
+              "id": "2.1.6",
+              "number": 6,
+              "name":"Carne Seca",
+              "description": "Carne seca, azeitona, cebola + (muçarela ou catupiry ou cheddar)",
+              "img": "pizzasImages.imgCarneSeca",
+              "display": "display:none",
+              "prices": "pizzaPrices3"
+            },
+            {
+              "id": "2.1.7",
+              "number": 7,
+              "name":"Atum",
+              "description": "Atum, muçarela, azeitona e cebola.",
+              "img": "pizzasImages.imgAtum",
+              "display": "display:none",
+              "prices": "pizzaPrices4"
+            }
+          ]
+        }
+      ]
+  },
+  "sorveteria": {
+    "name": "Sorveteria",
+      "subsections": [
+        {
+          "name": "Açaís",
+          "acaiStyle": true,
+          "products": [
+            {
+              "id": "3.1.1",
+              "number": 1,
+              "name":"Açaí (250ml)",
+              "description": "Aquele açaí delicioso e super cremoso! &#128523",
+              "priceOriginalAcai": 5.00,
+              "priceTotalAcai": 5.00,
+              "img": "https://i.ibb.co/ZWHjbvv/pp.jpg",
+              "display": "display:flex"
+            },
+            {
+              "id": "3.1.2",
+              "number": 2,
+              "name":"Açaí (300ml)",
+              "description": "Aquele açaí delicioso e super cremoso! &#128523",
+              "priceOriginalAcai": 7.00,
+              "priceTotalAcai": 7.00,
+              "img": "https://i.ibb.co/kXLSpQj/p.png",
+              "display": "display:none"
+            },
+            {
+              "id": "3.1.3",
+              "number": 3,
+              "name":"Açaí (400ml)",
+              "description": "Aquele açaí delicioso e super cremoso! &#128523",
+              "priceOriginalAcai": 10.00,
+              "priceTotalAcai": 10.00,
+              "img": "https://i.ibb.co/rx7STdG/m.png",
+              "display": "display:none"
+            },
+            {
+              "id": "3.1.4",
+              "number": 4,
+              "name":"Açaí (500ml)",
+              "description": "Aquele açaí delicioso e super cremoso! &#128523",
+              "priceOriginalAcai": 12.00,
+              "priceTotalAcai": 12.00,
+              "img": "https://i.ibb.co/zFDsx6D/g.png",
+              "display": "display:none"
+            }
+          ]
+        },
+        {
+          "name": "Milkshakes",
+          "acaiStyle": true,
+          "products": [
+            {
+              "id": "3.2.1",
+              "number": 1,
+              "name":"Milk-shake (300ml)",
+              "description": "Que tal aquele milk-shake super cremoso e delicioso?&#129316;",
+              "priceOriginalMS": 5.00,
+              "priceTotalMS": 5.00,
+              "img": "sorveteriaImages.imgMSP",
+              "display": "display:flex"
+            },
+            {
+              "id": "3.2.2",
+              "number": 2,
+              "name":"Milk-shake (400ml)",
+              "description": "Que tal aquele milk-shake super cremoso e delicioso?&#129316;",
+              "priceOriginalMS": 9.00,
+              "priceTotalMS": 9.00,
+              "img": "sorveteriaImages.imgMSP",
+              "display": "display:none"
+            },
+            {
+              "id": "3.2.3",
+              "number": 3,
+              "name":"Milk-shake (500ml)",
+              "description": "Que tal aquele milk-shake super cremoso e delicioso?&#129316;",
+              "priceOriginalMS": 9.00,
+              "priceTotalMS": 9.00,
+              "img": "sorveteriaImages.imgMSP",
+              "display": "display:none"
+            }
+          ]
+        },
+        {
+          "name": "Sorvetes",
+          "products": [
+            {
+              "id": "3.3.1",
+              "number": 1,
+              "categorySorvete": "sorvete",
+              "name":"Bola de sorvete",
+              "description": "Delicioso sorvete SUUUUPER cremoso!!",
+              "price":"R$1,00",
+              "priceNumb": 1.00,
+              "img": "sorveteriaImages.imgBola",
+              "display": "display:flex"
+            },
+            {
+              "id": "3.3.2",
+              "number": 2,
+              "categorySorvete": "sorvete",
+              "name":"Sorvete na casquinha",
+              "description": "1 bola na casquinha desse sorvete maravilhoso e cremoso.",
+              "price":"R$1,00",
+              "priceNumb": 1.00,
+              "img": "sorveteriaImages.imgCasquinha",
+              "display": "display:none"
+            },
+            {
+              "id": "3.3.3",
+              "number": 3,
+              "categorySorvete": "sorvete",
+              "name":"Sorvete no cascão",
+              "description": "2 bolas no cascão desse sorvete irresistível e cremoso!",
+              "price":"R$2,00",
+              "priceNumb": 2.00,
+              "img": "sorveteriaImages.imgCascao",
+              "display": "display:none"
+            },
+            {
+              "id": "3.3.4",
+              "number": 4,
+              "categorySorvete": "picolé",
+              "name":"Picolé cremoso",
+              "description": "Picolé super cremoso!",
+              "price":"R$1,50",
+              "priceNumb": 1.50,
+              "img": "sorveteriaImages.imgpicCremoso",
+              "display": "display:none"
+            },
+            {
+              "id": "3.3.5",
+              "number": 5,
+              "categorySorvete": "picolé",
+              "name":"Picolé cristalizado",
+              "description": "Picolé cristalizado super refrescante!",
+              "price":"R$1,50",
+              "priceNumb": 1.50,
+              "img": "sorveteriaImages.imgpicCristalizado",
+              "display": "display:none"
+            },
+            {
+              "id": "3.3.6",
+              "number": 6,
+              "categorySorvete": "picolé",
+              "name":"Picolé SKIMO",
+              "description": "Picolé super cremoso coberto com uma deliciosa casquinha de chocolate!",
+              "price":"R$3,00",
+              "priceNumb": 3.00,
+              "img": "sorveteriaImages.imgpicCasquinha",
+              "display": "display:none"
+            },
+            {
+              "id": "3.3.7",
+              "number": 7,
+              "categorySorvete": "cremosinho",
+              "name":"Cremosinho",
+              "description": "Sorvete no saquinho super cremoso!",
+              "price":"R$1,00",
+              "priceNumb": 1.00,
+              "img": "sorveteriaImages.imgCremosinho",
+              "display": "display:none"
+            }
+          ]
+        }
+      ]
+  },
+  "padaria": {
+    "name": "Padaria",
+      "subsections": [
+        {
+          "name": "Pães",
+          "products": [
+            {
+              "id": "4.1.1",
+              "number": 1,
+              "name":"Pão de doce",
+              "description": "Pãozinho de doce caseiro, delicioso e fofinho.",
+              "price":"R$0,50",
+              "img": "padariaImages.imgPaoDoce",
+              "display": "display:flex",
+              "offer": "5 por: R$2,00"
+            },
+            {
+              "id": "4.1.2",
+              "number": 2,
+              "name":"Pão de sal",
+              "description": "Pãozinho de sal caseiro, delicioso e fofinho.",
+              "price":"R$0,50",
+              "img": "padariaImages.imgPaoSal",
+              "display": "display:none",
+              "offer": "5 por: R$2,00"
+            },
+            {
+              "id": "4.1.3",
+              "number": 3,
+              "name":"Rosca doce",
+              "description": "Pãozinho em forma de rosca, super fofo e coberto com leite condensado e coco.",
+              "price":"R$0,75",
+              "img": "padariaImages.imgRosca",
+              "display": "display:none",
+              "offer": "3 por: R$2,00"
+            },
+            {
+              "id": "4.1.4",
+              "number": 4,
+              "name":"Sonho",
+              "description": "Delicioso sonho recheado. É de dar água na boca!&#129316;",
+              "price":"R$1,50",
+              "img": "padariaImages.imgSonho",
+              "display": "display:none"
+            },
+            {
+              "id": "4.1.5",
+              "number": 5,
+              "name":"Donut",
+              "description": "Impossível resistir a esse Donut coberto com brigadeiro!&#127849;",
+              "price":"R$2,00",
+              "img": "padariaImages.imgDonut",
+              "display": "display:none"
+            }
+          ]
+        },
+        {
+          "name": "Bolos",
+          "products": [
+            {
+              "id": "4.2.1",
+              "number": "01",
+              "name":"Bolo da prima",
+              "description": "O tradicional e queiridinho do café de todo dia: Bolo de trigo, super fofinho e saboroso!",
+              "price":"R$7,00",
+              "img": "padariaImages.imgprima",
+              "display": "display:flex"
+            },
+            {
+              "id": "4.2.2",
+              "number": "02",
+              "name":"Bolo de Formigueiro",
+              "description": "A delícia do bolo da prima com um plus: granulado de chocolate!",
+              "price":"R$7,50",
+              "img": "padariaImages.imgformigueiro",
+              "display": "display:none"
+            },
+            {
+              "id": "4.2.3",
+              "number": "03",
+              "name":"Bolo de Milho",
+              "description": "Delicioso bolo cremoso feito com fubá de milho e milho verde. Uma delícia!",
+              "price":"R$6,00",
+              "img": "padariaImages.imgmilho",
+              "display": "display:none"
+            },
+            {
+              "id": "4.2.4",
+              "number": "04",
+              "name":"Bolo de Arroz (G)",
+              "description": "Delicioso bolo de arroz (tamanho normal).",
+              "price":"R$6,00",
+              "img": "padariaImages.imgarrozgrande",
+              "display": "display:none"
+            },
+            {
+              "id": "4.2.5",
+              "number": "05",
+              "name":"Bolo de Arroz (P)",
+              "description": "Delicioso bolo de arroz (tamanho pequeno).",
+              "price":"R$3,50",
+              "img": "padariaImages.imgarrozpequeno",
+              "display": "display:none"
+            },
+            {
+              "id": "4.2.6",
+              "number": "06",
+              "name":"Brevidade (G)",
+              "description": "A famosa brevidade, delicioso bolo feito com tapioca e rapadura (tamanho normal).",
+              "price":"R$7,00",
+              "img": "padariaImages.imgbrevidadegrande",
+              "display": "display:none"
+            },
+            {
+              "id": "4.2.7",
+              "number": "07",
+              "name":"Brevidade (P)",
+              "description": "A famosa brevidade, delicioso bolo feito com tapioca e rapadura (tamanho pequeno).",
+              "price":"R$4,00",
+              "img": "padariaImages.imgbrevidadepequena",
+              "display": "display:none"
+            },
+            {
+              "id": "4.2.8",
+              "number": "08",
+              "name":"Bolo de Cenoura",
+              "description": "Aquele maravilhoso bolo de cenoura com uma deliciosa e generosa cobertura de chocolate.",
+              "price":"R$6,00",
+              "img": "padariaImages.imgBoloCenoura",
+              "display": "display:none"
+            }
+          ]
+        },
+        {
+          "name": "Diversos",
+          "products": [
+            {
+              "id": "4.3.1",
+              "number": "01",
+              "name":"Chimango",
+              "description": "O tradicional e delicioso chimango (joão duro), feito com tapioca.",
+              "price":"R$1,00",
+              "offer": "'4 por R$3,00",
+              "img": "padariaImages.imgChimango",
+              "display": "display:flex"
+            },
+            {
+              "id": "4.3.2",
+              "number": "02",
+              "name":"Pão de queijo",
+              "description": "Delicioso e fofinho pão de queijo. Vem sentir o gostinho de Minas na Bahia.",
+              "price":"R$1,00",
+              "img": "padariaImages.imgpaoqueijo",
+              "display": "display:none"
+            },
+            {
+              "id": "4.3.3",
+              "number": "03",
+              "name":"Bolachinha de tapioca",
+              "description": "200g da famosa e deliciosa bolachinha de tapioca!",
+              "price":"R$4,00",
+              "img": "padariaImages.imgbolachinha",
+              "display": "display:none"
+            },
+            {
+              "id": "4.3.4",
+              "number": "04",
+              "name":"Doce de Leite",
+              "description": "O maravilhoso doce de leite caseiro, super cremoso e delicioso.",
+              "manyPrices": [
+                {
+                  "price": "R$ 5,00",
+                  "size": "250"
+                },
+                {
+                  "price": "R$ 9,00",
+                  "size": "500"
+                },
+                {
+                  "price": "R$ 18,00",
+                  "size": "1Kg"
+                }
+              ],
+              "img": "padariaImages.imgDoceLeite",
+              "display": "display:none"
+            },
+            {
+              "id": "4.3.5",
+              "number": "05",
+              "name":"Avoador",
+              "description": "O tão conhecido biscoito de polvilho (avoador).",
+              "price":"R$4,00",
+              "img": "padariaImages.imgavoador",
+              "display": "display:none"
+            }
+          ]
+        }
+      ]
+  },
+  "emuitomais": {
+    "name": "E muito mais!",
+      "subsections": [
+        {
+          "name": "Bomboniere",
+          "products": [
+            {
+              "id": "5.1.1",
+              "number": "01",
+              "name": "Bomboniere diversificada!",
+              "description": "Chocolates, Trident, Halls, M&M's, Bombons, Doces, Salgadinhos e muito + &#127852;&#127851;&#127850;&#127853;",
+              "price": null,
+              "img": "padariaImages.imgavoador",
+              "display": "display:flex"
+            }
+          ]
+        },
+        {
+          "name": "Salgados Festa",
+          "products": [
+            {
+              "id": "5.1.2",
+              "number": "02",
+              "name": "Salgados para Festas",
+              "description": null,
+              "price": null,
+              "img": "padariaImages.imgavoador",
+              "display": "display:flex"
+            }
+          ]
+        },
+        {
+          "name": "Bebidas",
+          "products": [
+            {
+              "id": "5.1.3",
+              "number": "03",
+              "name": "Bebidas Refrescantes",
+              "description": null,
+              "price": null,
+              "img": "padariaImages.imgavoador",
+              "display": "display:flex"
+            },
+            {
+              "id": "5.1.4",
+              "number": "04",
+              "name": "Bebidas Alcoólicas",
+              "description": null,
+              "price": null,
+              "img": "padariaImages.imgavoador",
+              "display": "display:none"
+            }
+          ]
+        },
+        {
+          "name": "Gelo",
+          "products": [
+            {
+              "id": "5.1.5",
+              "number": "05",
+              "name": "Gelo",
+              "description": null,
+              "price": null,
+              "img": "padariaImages.imgavoador",
+              "display": "display:flex"
+            }
+          ]
+        }
+      ]
+  },
+  "adittionals": [
+    {
+      "id": 1,
+      "name": "Banana",
+      "idAddName": "addBanana",
+      "available": true,
+      "price": "R$1,00",
+      "value": 1.00,
+      "selected": false,
+      "fourFree": true
+    },
+    {
+      "id": 2,
+      "name": "Morango",
+      "idAddName": "addMorango",
+      "available": false,
+      "price": "R$1,00",
+      "value": 1.00,
+      "selected": false,
+      "fourFree": true
+    },
+    {
+      "id": 3,
+      "name": "Granola",
+      "idAddName": "addGranola",
+      "available": true,
+      "price": "R$1,00",
+      "value": 1.00,
+      "selected": false,
+      "fourFree": true
+    },
+    {
+      "id": 4,
+      "name": "Paçoca",
+      "idAddName": "addPacoca",
+      "available": true,
+      "price": "R$1,00",
+      "value": 1.00,
+      "selected": false,
+      "fourFree": true
+    },
+    {
+      "id": 5,
+      "name": "LeiteCond.",
+      "idAddName": "addLeiteCond",
+      "available": true,
+      "price": "R$1,00",
+      "value": 1.00,
+      "selected": false,
+      "fourFree": true
+    },
+    {
+      "id": 6,
+      "name": "Leite em pó",
+      "idAddName": "addLeitePo",
+      "available": true,
+      "price": "R$1,00",
+      "value": 1.00,
+      "selected": false,
+      "fourFree": true
+    },
+    {
+      "id": 7,
+      "name": "Amendoim",
+      "idAddName": "addAmendoim",
+      "available": true,
+      "price": "R$1,00",
+      "value": 1.00,
+      "selected": false,
+      "fourFree": true
+    },
+    {
+      "id": 8,
+      "name": "Nutella",
+      "idAddName": "addNutella",
+      "available": true,
+      "price": "R$2,00",
+      "value": 2.00,
+      "selected": false,
+      "fourFree": false
+    },
+    {
+      "id": 9,
+      "name": "Ovomaltine",
+      "idAddName": "addOvomaltine",
+      "available": true,
+      "price": "R$2,00",
+      "value": 2.00,
+      "selected": false,
+      "fourFree": false
+    }
+  ]
+}
