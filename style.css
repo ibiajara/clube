@@ -1775,13 +1775,14 @@ header #menu-bar{
 }
 
 #establishmentsDiv {
-  
+  margin-top: 2rem;
 }
 
 .establishmentContainer {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 1rem 0.5rem;
 }
 
 .establishmentContainer .iconLink {
