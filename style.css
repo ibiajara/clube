@@ -859,6 +859,20 @@ header #menu-bar{
   width: max-content;
 }
 
+.footer .box-container .box .congrats{
+  font-size: 2rem;
+  width: 100%;
+}
+
+.footer .box-container .box .developedBy{
+  font-size: 1.5rem;
+  padding: 0.7rem 0;
+}
+
+.footer .box-container .box .lordiconcredit{
+  font-size: 1rem;
+}
+
 .footer .box-container .box p i{
   padding-right: .5rem;
   color:var(--yellow);
