@@ -1778,15 +1778,32 @@ header #menu-bar{
   
 }
 
-.establishmentBox {
+.establishmentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.establishmentContainer .iconLink {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+.establishmentContainer .establishmentBox {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
   text-decoration: none;
+  position: relative;
 }
 
-.establishmentBox .imgEstablishmentDiv {
+.establishmentContainer .establishmentBox .imgEstablishmentDiv {
+  user-select: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1799,12 +1816,12 @@ header #menu-bar{
   margin-bottom: 0.4rem;
 }
 
-.establishmentBox .imgEstablishmentDiv .imgEstablishment {
+.establishmentContainer .establishmentBox .imgEstablishmentDiv .imgEstablishment {
   max-width: 100%;
   height: auto;
 }
 
-.establishmentBox .titleEstablishment {
+.establishmentContainer .establishmentBox .titleEstablishment {
   font-weight: bold;
   text-align: center;
   text-decoration: none;

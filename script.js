@@ -207,12 +207,15 @@ async function loadFirebase() {
       let stringEstablishments = '';
       dataEstablishments.map(establishment => {
         stringEstablishments = `${stringEstablishments}
-        <a href="${establishment.link}" target="_blank" class="establishmentBox">
-            <div class="imgEstablishmentDiv">
-              <img class="imgEstablishment" src="${establishment.image}" alt="">
-            </div>
-            <span class="titleEstablishment">${establishment.name}</span>
-        </a>
+        <div class="establishmentContainer">
+          <a ${establishment.link ? `href="${establishment.link}" target="_blank"` : ''} class="establishmentBox">
+              <div class="imgEstablishmentDiv">
+                <img class="imgEstablishment" src="${establishment.image}" alt="">
+                ${establishment.link ? '<i class="fas fa-external-link-alt iconLink"></i>' : ''}
+              </div>
+              <span class="titleEstablishment">${establishment.name}</span>
+          </a>
+        </div>
         `
       })
 
