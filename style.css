@@ -1773,3 +1773,41 @@ header #menu-bar{
   font-weight: bold;
   text-decoration: none;
 }
+
+#establishmentsDiv {
+  
+}
+
+.establishmentBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  text-decoration: none;
+}
+
+.establishmentBox .imgEstablishmentDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #6b6b6b;
+  box-shadow: 0 0.3rem 0.3rem rgba(0,0,0,.5);
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 0.4rem;
+}
+
+.establishmentBox .imgEstablishmentDiv .imgEstablishment {
+  max-width: 100%;
+  height: auto;
+}
+
+.establishmentBox .titleEstablishment {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #000000;
+}

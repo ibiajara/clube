@@ -183,6 +183,46 @@ async function loadFirebase() {
 
       document.getElementById('dataTotal').innerHTML = convertToReal(sumTotal);
 
+      const dataEstablishments = [];
+
+      Object.entries(allDataClub.establishments).map((keyValueEstablishments, index) => {
+        let establishmentsObj = keyValueEstablishments[1];
+        let establishmentsObjKey = keyValueEstablishments[0];
+
+        establishmentsObj.id = establishmentsObjKey;
+        
+        dataEstablishments.push(establishmentsObj);
+      }); 
+
+      dataEstablishments.sort((a, b) => {
+        if (a.name < b.name) {
+          return -1;
+        }
+        if (a.name > b.name) {
+          return 1;
+        }
+        return 0;
+      });
+
+      let stringEstablishments = '';
+      dataEstablishments.map(establishment => {
+        stringEstablishments = `${stringEstablishments}
+        <a href="${establishment.link}" target="_blank" class="establishmentBox">
+            <div class="imgEstablishmentDiv">
+              <img class="imgEstablishment" src="${establishment.image}" alt="">
+            </div>
+            <span class="titleEstablishment">${establishment.name}</span>
+        </a>
+        `
+      })
+
+      document.getElementById('establishmentsDiv').innerHTML = stringEstablishments;
+
+      console.log('dataEstablishments:');
+      console.log(dataEstablishments);
+
+//END CLUB SECTION---------------------------------------
+
       Object.entries(snapshot.val().client.specialPrices).map((keyValueSpecPric, index) => {
         let specialPrice = keyValueSpecPric[1];
         let specialPriceKey = keyValueSpecPric[0];
