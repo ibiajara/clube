@@ -171,7 +171,7 @@ async function loadFirebase() {
 
       let stringDataClub = '';
       dataClub.map(transaction => {
-        stringDataClub = `${stringDataClub}<li class="liTrans"><span class='nameTrans'>${transaction.name}<span> | <span class="valueTrans ${transaction.isEntrance ? "positive" : "negative"}">${convertToReal(transaction.value)}<span> | <span class="isPaidTrans">${transaction.isPaid ? "✔️" : "AGUARDE"}<span></li>`
+        stringDataClub = `${stringDataClub}<li class="liTrans"><span class='nameTrans'>${(String(transaction.name)).toUpperCase()}<span> | <span class="valueTrans ${transaction.isEntrance ? "positive" : "negative"}">${convertToReal(transaction.value)}<span> | <span class="isPaidTrans">${transaction.isPaid ? "✔️" : "AGUARDE"}<span></li>`
       })
 
       document.getElementById('listTransactions').innerHTML = stringDataClub;
