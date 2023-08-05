@@ -147,10 +147,10 @@ async function loadFirebase() {
         return;
       }
       showArr(snapshot.val());
-
+      const allDataClub = snapshot.val().clubeIbiajara;
       //START CLUB SECTION
       const dataClub = []
-      Object.entries(snapshot.val().clubeIbiajara).map((keyValueDataClub, index) => {
+      Object.entries(allDataClub.donates).map((keyValueDataClub, index) => {
         let dataClubObj = keyValueDataClub[1];
         let dataClubObjKey = keyValueDataClub[0];
 
