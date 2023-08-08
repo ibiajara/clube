@@ -167,17 +167,21 @@ async function loadFirebase() {
           return 1;
         }
         return 0;
-      })
+      });
 
       let stringDataClub = '';
       dataClub.map(transaction => {
-        stringDataClub = `${stringDataClub}<li class="liTrans"><span class='nameTrans'>${(String(transaction.name)).toUpperCase()}<span> | <span class="valueTrans ${transaction.isEntrance ? "positive" : "negative"}">${convertToReal(transaction.value)}<span> | <span class="isPaidTrans">${transaction.isPaid ? "✔️" : "AGUARDE"}<span></li>`
+        stringDataClub = `${stringDataClub}<li class="liTrans"><span class='nameTrans'>${(String(transaction.name)).toUpperCase()}<span> | <span class="valueTrans ${transaction.isEntrance ? "positive" : "negative"}">${convertToReal(transaction.value)}<span> | <span class="isPaidTrans">${transaction.paymentMethod === 'pix' ? "💰" : "🏗️"} | <span class="isPaidTrans">${transaction.isPaid ? "✔️" : "⌛"}<span></li>`
       })
 
       document.getElementById('listTransactions').innerHTML = stringDataClub;
 
       const sumTotal = dataClub.reduce(
-        (acc, curr) => acc + curr.value,
+        (acc, curr) => {
+          if(curr.paymentMethod === 'pix') {
+            return acc + curr.value
+          }
+        },
         0
       );
 
