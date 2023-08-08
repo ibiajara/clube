@@ -177,13 +177,7 @@ async function loadFirebase() {
       document.getElementById('listTransactions').innerHTML = stringDataClub;
 
       const sumTotal = dataClub.reduce(
-        (acc, curr) => {
-          if(curr.paymentMethod === 'pix') {
-            return acc + curr.value
-          }else {
-            return acc
-          }
-        },
+        (acc, curr) => (curr.paymentMethod === 'pix') ? (acc + curr.value) : acc,
         0
       );
 
