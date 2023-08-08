@@ -180,6 +180,8 @@ async function loadFirebase() {
         (acc, curr) => {
           if(curr.paymentMethod === 'pix') {
             return acc + curr.value
+          }else {
+            return acc
           }
         },
         0

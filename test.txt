@@ -1,0 +1,184 @@
+0
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'AFONSO APARECIDO', payment_method: 'pix', …}
+1
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'ALBERTO ARAÚJO DIAS ', payment_method: 'pix', …}
+2
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'ALEX S. SANTOS ', paymentMethod: 'pix', …}
+3
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'ANA BEATRIZ OLIVEIRA RODRIGUES ', payment_method: 'pix', …}
+4
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'ANGELA MARIA G. S. MARTINS ', payment_method: 'pix', …}
+5
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'APARECIDA ROSA A. SANTOS', payment_method: 'pix', …}
+6
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'Afonsinho', paymentMethod: 'pix', …}
+7
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'Anderson Oliveira', paymentMethod: 'pix', …}
+8
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'Andreone ', paymentMethod: 'pix', …}
+9
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'CARMELITA G DE O PERDIZES', payment_method: 'pix', …}
+10
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'CARMEM ROSA DE OLIVEIRA ', payment_method: 'pix', …}
+11
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'DOMINGOS SAVIO P. SIQUEI', payment_method: 'pix', …}
+12
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'Daré ', paymentMethod: 'pix', …}
+13
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'Didita ', paymentMethod: 'pix', …}
+14
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'Dr. Reinaldo ', paymentMethod: 'pix', …}
+15
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'EDIVALDO CARLOS', payment_method: 'pix', …}
+16
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'ENO SALDANHA PRADO', payment_method: 'pix', …}
+17
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'EVALDO AMARAL', payment_method: 'pix', …}
+18
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'Edson Santos ', paymentMethod: 'pix', …}
+19
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'Eduardo de Claudinha', paymentMethod: 'pix', …}
+20
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'Edvaldo (Coco)', paymentMethod: 'pix', …}
+21
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'FÁBIO LUIZ DOS SANTOS', payment_method: 'pix', …}
+22
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'Fábio de Dene ', paymentMethod: 'pix', …}
+23
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'GERALDO FERREIRA LIMA ', payment_method: 'pix', …}
+24
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'GUIOMAR DOS SANTOS', payment_method: 'pix', …}
+25
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'Gilson ', paymentMethod: 'pix', …}
+26
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'Helaine vereadora ', paymentMethod: 'pix', …}
+27
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'HÉLIA MARIA SANTOS OLIVEIRA ', payment_method: 'pix', …}
+28
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'ISA DOURADO DA SILVA ', payment_method: 'pix', …}
+29
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'Ivo Macedo ', paymentMethod: 'pix', …}
+30
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'JADSON IRLLAN', payment_method: 'pix', …}
+31
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'JOELMA MACEDO', payment_method: 'pix', …}
+32
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'JOSÉ OTÁVIO SOUSA SILVA ', payment_method: 'pix', …}
+33
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'JOÃO CAJAÍBA ', payment_method: 'pix', …}
+34
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'Júlia e Paulo', paymentMethod: 'pix', …}
+35
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'KAU DE TAZIM', payment_method: 'pix', …}
+36
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'Kanavillil Rajagopolan ', paymentMethod: 'pix', …}
+37
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'LAERCIO FERNANDES SANTOS ', payment_method: 'pix', …}
+38
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'LUCAS SANTOS CAMPOS ', payment_method: 'pix', …}
+39
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'LUIZ ALVES SILVA ', payment_method: 'pix', …}
+40
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'LUÍS GUSTAVO ', payment_method: 'pix', …}
+41
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'Lurdemar ', paymentMethod: 'pix', …}
+42
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'MARCOS DE VANDINHA', payment_method: 'pix', …}
+43
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'MARLY OLIVEIRA SANTOS ', payment_method: 'pix', …}
+44
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'MARTA LUCIANA REIS ROCHA ', payment_method: 'pix', …}
+45
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'MONALISA GUEDES CORREIA GONZAGA ', payment_method: 'pix', …}
+46
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'Marcos Francisco Santos (Marquinhos)', paymentMethod: 'pix', …}
+47
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'Maria Carmém.', paymentMethod: 'pix', …}
+48
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'NEUZA MARIA BATISTA ', payment_method: 'pix', …}
+49
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'Nadir Xavier ', paymentMethod: 'pix', …}
+50
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'Nathan', paymentMethod: 'pix', …}
+51
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'OSVALDO NOVAIS DE OLIVEIRA ', payment_method: 'pix', …}
+52
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'Osvaldo e Marysa', paymentMethod: 'pix', …}
+53
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'PEDRO AMÉRICO', payment_method: 'pix', …}
+54
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'RAILDA  MENEZES  DE SOUZA ', payment_method: 'pix', …}
+55
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'ROGÉRIO DOS SANTOS', payment_method: 'pix', …}
+56
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'Robertinho de Zeca', paymentMethod: 'pix', …}
+57
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'Uilton ', paymentMethod: 'pix', …}
+58
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'VALOR TRANSFERIDO POR  DIÓGENES', payment_method: 'pix', …}
+59
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'VANILDE MARIA S. ARAÚJO ', payment_method: 'pix', …}
+60
+: 
+{categoryType: 'donate', isEntrance: true, isPaid: true, name: 'Zoraide Azevedo ', paymentMethod: 'pix', …}
+le
